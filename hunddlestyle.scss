@@ -3,7 +3,7 @@
 }
 body {
   font-size: 18px;
-  background-color: #f3f3ec;
+  background-color: #f3f3f2;
 }
 
 header{
@@ -85,7 +85,6 @@ header{
   .colum2{
     border-radius: 0 0 12px 12px;
     text-align: center;
-
     h1{
       color: hsl(192, 100%, 9%);
       font-weight: 700;
@@ -96,6 +95,96 @@ header{
       color: hsl(208, 11%, 55%);
       font-weight: 400;
       margin-bottom: 30px;
+    }
+  }
+}
+
+footer{
+  margin-top: 200px;
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  .overbutton{
+    position: relative;
+    top: -80px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+      font-size: 1em;
+      font-weight: 700;
+      margin: 30px 0;
+    }
+
+    button{
+      height: 40px;
+      width: 65%;
+      border: none;
+      border-radius: 30px;
+      background-color: hsl(322, 100%, 66%);
+      margin: 0px auto 40px auto;
+    }
+  }
+
+  .info_fo{
+
+    .contact{
+      img{
+        height: 30px;
+        margin-bottom: 25px;
+      }
+      div{
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: baseline;
+        img{
+          margin-right: 25px;
+          height: 20px;
+        }
+      }
+
+    }
+
+    .list{
+      margin-top: 30px;
+      ul{
+        padding: 0;
+        list-style: none;
+        li{
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+  }
+
+  .social{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .icons{
+      display: flex;
+      a{
+        border: 1px solid #fff;
+        border-radius: 30px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        margin-left: 12px;
+
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    p{
+      font-size: 0.7em;
+
+      margin-top: 20px;
+      margin-bottom: 50px;
     }
   }
 }

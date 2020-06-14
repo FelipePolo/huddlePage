@@ -4,7 +4,7 @@
 
 body {
   font-size: 18px;
-  background-color: #f3f3ec;
+  background-color: #f3f3f2;
 }
 
 header {
@@ -103,5 +103,120 @@ header .tryitfree {
   color: #808d99;
   font-weight: 400;
   margin-bottom: 30px;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: #00252e;
+  color: #fff;
+}
+
+footer .overbutton {
+  position: relative;
+  top: -80px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .overbutton h1 {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+footer .overbutton button {
+  height: 40px;
+  width: 65%;
+  border: none;
+  border-radius: 30px;
+  background-color: #ff52bf;
+  margin: 0px auto 40px auto;
+}
+
+footer .info_fo .contact img {
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+footer .info_fo .contact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+footer .info_fo .contact div img {
+  margin-right: 25px;
+  height: 20px;
+}
+
+footer .info_fo .list {
+  margin-top: 30px;
+}
+
+footer .info_fo .list ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer .info_fo .list ul li {
+  margin-bottom: 20px;
+}
+
+footer .social {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .social .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social .icons a {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .social p {
+  font-size: 0.7em;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=hunddlestyle.css.map */
